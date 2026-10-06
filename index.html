@@ -1,16 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-Hant">
 <head>
+    <meta charset="UTF-8">
     <title>正為您載入問卷...</title> 
-<script>
+    <script>
         var urls = [
-            "https://hk.yahoo.com",
-            "https://forms.gle/GM6TWtBtfgNauY4s6"
+            "https://forms.gle/iheY2Y9gMDA2A68w7",
+            "https://forms.gle/AGD59Y5igmSVeHAv5"
         ];
+        
+        // 隨機抽取一個網址
         var randomUrl = urls[Math.floor(Math.random() * urls.length)];
+        
+        // 執行跳轉
         window.location.href = randomUrl;
     </script>
 </head>
 <body>
+    <p style="text-align: center; margin-top: 50px; font-family: sans-serif; color: #666;">
+        問卷載入中，請稍候...
+    </p>
 </body>
 </html>
